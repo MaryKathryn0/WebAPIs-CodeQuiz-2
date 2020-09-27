@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="./style.css" />
 
+
 </head>
 
 <body>
     <div class="header">
-        <div class="highscore"></div> View High Scores
-        <div class="timer"></div> Time:
+        <section id="highscores"></section> View High Scores
+        <section id="timer"></section> Timer
     </div>
-    
+
     <div class="container">
-        <h1 id="questions"></h1>
-        <div id="answer"></div>
+        <section id="questions"> Question 1<br>
+            <input type="radio" id="Choice1" name="choice" value="Choice1">
+            <label for="Choice1">Choice 1</label><br>
+            <input type="radio" id="Choice2" name="choice" value="Choice2">
+            <label for="Choice2">Choice 2</label><br>
+            <input type="radio" id="Choice3" name="choice" value="Choice3">
+            <label for="Choice3">Choice 3</label><br> 
+            <input type="radio" id="Choice4" name="choice" value="Choice4">
+            <label for="Choice4">Choice 4</label><br>     
+            <button id="submit">Submit</button>          
+        </section>
+        
     </div>
-    
-    
+    <div id="answer"></div> Correct/Wrong
+
+
     <script src="./script.js"></script>
-    
+
 </body>
+
 </html>

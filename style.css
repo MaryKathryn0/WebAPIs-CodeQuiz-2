@@ -3,7 +3,20 @@ header {
     background: white;
 }
 
+.highscores {
+    text-align: left;
+}
+
+.timer {
+    text-align: right;
+}
+
 .container {
+    width: "300px";
     color: black;
+    background-color: blueviolet;
     background: white;
+    border-width: "5px";
+    border-style: solid;
+    border-color: black;
 }
