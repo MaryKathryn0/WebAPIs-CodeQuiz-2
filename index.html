@@ -15,46 +15,49 @@
         <section id="highscores"></section> View High Scores
         <section id="timer"></section> Timer
     </div>
-    <!--Created Instruction Container-->
-    <div class="guide">
-        <h2>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
-            answers will penalize your scoretime by ten seconds!</h2>
-        <div class="choices">
-            <button id="start">Start Quiz</button><br>
+    <!--Created Instruction Box-->
+    <div id = "content">
+        <div class="guide">
+            <h2>Coding Quiz Challenge</h2>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers will penalize your scoretime by ten seconds!</p>
+            <div class="choices">
+                <button id="start">Start Quiz</button><br>
+            </div>
+            <!--Created Question Box-->
         </div>
-        <!--Created Question Container-->
+        <div class="qBox">
+            <div id="questions"></div>
+            <ul id="choices">
+                <li id="0">
+                    <button id="choice1">choice 1</button><br>
+                </li>
+                <li id="1">
+                    <button id="choice2">choice 2</button><br>
+                </li>
+                <li id="2">
+                    <button id="choice3">choice 3</button><br>
+                </li>
+                <li id="3">
+                    <button id="choice4">choice 4</button><br>
+                </li>
+                <div class="grader">
+                    <div id="answerC">Correct</div>
+                    <div id="answerW">Wrong</div>
+                </div>
+        </div>
+
     </div>
-    <div class="container">
-        <h2>Question</h2>
-        <ul id="choices">
-            <li id="0">
-                <button id="choice1">choice 1</button><br>
-            </li>
-            <li id="1">
-                <button id="choice2">choice 2</button><br>
-            </li>
-            <li id="2">
-                <button id="choice3">choice 3</button><br>
-            </li>
-            <li id="3">
-                <button id="choice4">choice 4</button><br>
-            </li>
-    </div>
-    <div class="grader">
-        <div id="answerC">Correct</div>
-        <div id="answerW">Wrong</div>
-    </div>
-    </div>
-    <!--Created Final Score Container-->
+    <!--Created Final Score Box-->
     <div class="finish">
         <h2>All done!"</h2>
         <p>Your final score is ____ </p>
 
-        <button id="start">Start Quiz</button><br>
+        Enter initials: <button id="submit">Submit</button><br>
+    </div>
     </div>
 
-
-    <script src="./script.js"></script>
+    <script src="./scriptQs.js"></script>
 
 </body>
 

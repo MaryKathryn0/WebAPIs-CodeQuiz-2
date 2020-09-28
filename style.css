@@ -11,24 +11,29 @@ header {
     text-align: right;
 }
 
+#start {
+    color: white;
+    background-color: purple
+
+}
 .guide {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    width: 500px;
+    width: 700px;
     color: black;
-    background-color: pink;
+    background-color: lightgray;
     text-align: center;
 }
-.container {
+.qBox {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    width: 500px;
+    width: 700px;
     color: black;
-    background-color: pink;
+    background-color: lightgray;
     text-align: center;
 }
 .finish {
@@ -36,9 +41,9 @@ header {
     margin-left: auto;
     margin-right: auto;
     height: 200px;
-    width: 500px;
+    width: 700px;
     color: black;
-    background-color: pink;
+    background-color: lightgray;
     text-align: center;
 }
 h2 {
@@ -60,7 +65,23 @@ h2 {
     align-items: center;
 }
 #choice1 {
-    background-color: blueviolet;
+    background-color: purple;
+    color: white;
+}
+#choice2 {
+    background-color: purple;
+    color: white;
+}
+#choice3 {
+    background-color: purple;
+    color: white;
+}
+#choice4 {
+    background-color: purple;
+    color: white;
+}
+#submit {
+    background-color: purple;
     color: white;
 }
 
