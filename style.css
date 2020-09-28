@@ -53,13 +53,19 @@ h2 {
     align-items: center;
 }
 
+#choices {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #choice1 {
     background-color: blueviolet;
     color: white;
 }
 
-#grader {
-    text-align: left;
+.grader {
+    text-align: center;
     color: gray;
     font-style: italic;
 
