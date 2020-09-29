@@ -16,7 +16,7 @@
         <section id="timer"></section> Timer
     </div>
     <!--Created Instruction Box-->
-    <div id = "content">
+    <div id="content">
         <div class="guide">
             <h2>Coding Quiz Challenge</h2>
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
@@ -28,33 +28,29 @@
         </div>
         <div class="qBox">
             <div id="questions"></div>
-            <ul id="choices">
-                <li id="0">
-                    <button id="choice1">choice 1</button><br>
-                </li>
-                <li id="1">
-                    <button id="choice2">choice 2</button><br>
-                </li>
-                <li id="2">
-                    <button id="choice3">choice 3</button><br>
-                </li>
-                <li id="3">
-                    <button id="choice4">choice 4</button><br>
-                </li>
+            <div id="choices"><br>
+                <button id="choice1"></button><br>
+
+                <button id="choice2"></button><br>
+
+                <button id="choice3"></button><br>
+
+                <button id="choice4"></button><br>
+            </div> 
                 <div class="grader">
                     <div id="answerC">Correct</div>
                     <div id="answerW">Wrong</div>
                 </div>
+            </div>
+
         </div>
+        <!--Created Final Score Box-->
+        <div class="finish">
+            <h2>All done!"</h2>
+            <p>Your final score is ____ </p>
 
-    </div>
-    <!--Created Final Score Box-->
-    <div class="finish">
-        <h2>All done!"</h2>
-        <p>Your final score is ____ </p>
-
-        Enter initials: <button id="submit">Submit</button><br>
-    </div>
+            Enter initials: <button id="submit">Submit</button><br>
+        </div>
     </div>
 
     <script src="./scriptQs.js"></script>
