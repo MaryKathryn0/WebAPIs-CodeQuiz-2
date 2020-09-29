@@ -54,14 +54,14 @@ h2 {
 .choices {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 #choices {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 #choice1 {

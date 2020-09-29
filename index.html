@@ -26,26 +26,26 @@
             </div>
             <!--Created Question Box-->
         </div>
-        <div class="qBox">
+        <div class="qBox" style="display:none">
             <div id="questions"></div>
-            <div id="choices"><br>
-                <button id="choice1"></button><br>
+            <div class="choices"><br>
+                <button id="choice1" data-index="1" class="choices"></button><br>
 
-                <button id="choice2"></button><br>
+                <button id="choice2" data-index="2" class="choices"></button><br>
 
-                <button id="choice3"></button><br>
+                <button id="choice3" data-index="3" class="choices"></button><br>
 
-                <button id="choice4"></button><br>
+                <button id="choice4" data-index="4" class="choices"></button><br>
             </div> 
                 <div class="grader">
-                    <div id="answerC">Correct</div>
-                    <div id="answerW">Wrong</div>
+                    <div id="answerC" style="display:none">Correct</div>
+                    <div id="answerW" style="display:none">Wrong</div>
                 </div>
             </div>
 
         </div>
         <!--Created Final Score Box-->
-        <div class="finish">
+        <div class="finish" style="display:none">
             <h2>All done!"</h2>
             <p>Your final score is ____ </p>
 
